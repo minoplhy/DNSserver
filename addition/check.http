@@ -1,0 +1,5 @@
+HTTP/1.0 200 Found
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/plain
+Access-Control-Allow-Origin: https://domain.tld
