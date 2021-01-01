@@ -1,4 +1,7 @@
 # DOT DOH with haproxy
+
+[Mozilla ssl-config](https://ssl-config.mozilla.org/)
+
 ```
 Query
            Dns-over-TLS
