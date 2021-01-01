@@ -2,6 +2,8 @@
 
 [Mozilla ssl-config](https://ssl-config.mozilla.org/)
 
+**!!! denylist.rpz and allowlist.rpz are made for my _private_ use and will _cause_ problem with _some_ domain !!!**
+
 ```
 Query
            Dns-over-TLS
