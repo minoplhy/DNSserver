@@ -1,0 +1,3 @@
+# List of third party filters besides my personal list
+https://block.energized.pro/ultimate/formats/rpz.txt
+https://rpz.oisd.nl/

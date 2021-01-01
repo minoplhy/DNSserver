@@ -1,4 +1,9 @@
 # DOT DOH with haproxy
+
+**[Mozilla ssl-config](https://ssl-config.mozilla.org/)**
+
+**!!! denylist.rpz and allowlist.rpz are made for my _private_ use and will _cause_ problem with _some_ domain !!!**
+
 ```
 Query
            Dns-over-TLS
@@ -18,3 +23,6 @@ Query
                       |--------------------------------------------------------------> Dns Resolver (Knot-resolver dns local)
                       
 ```
+
+# Recommendation
+1. [knot-resolver](https://knot-resolver.cz) **Recommend** using upstream repository on debian
