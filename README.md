@@ -26,3 +26,4 @@ Query
 
 # Recommendation
 1. [knot-resolver](https://knot-resolver.cz) **Recommend** using upstream repository on debian
+2. Download.sh **Recommend** if you want to download all the default filters used in kresd.conf(knot-resolver configuration)
