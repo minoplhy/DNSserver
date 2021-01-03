@@ -4,3 +4,5 @@ https://rpz.oisd.nl/
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=rpz&showintro=1&mimetype=plaintext
 https://block.energized.pro/extensions/social/formats/rpz.txt
 https://block.energized.pro/extensions/regional/formats/rpz.txt
+https://urlhaus.abuse.ch/downloads/rpz/
+https://block.energized.pro/extensions/xtreme/formats/rpz.txt
