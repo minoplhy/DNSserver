@@ -1,8 +1,7 @@
+; start!
 in-os-config-appstore.vivoglobal.com CNAME .
 asia-vcode-od.vivoglobal.com CNAME .
 excfgfile-vivofs-asia.vivo.com.cn CNAME .
-tencent.com CNAME .
-tencent.cn CNAME .
 footprints-pa.googleapis.com CNAME .
 people-pa.googleapis.com CNAME .
 lamssettings-pa.googleapis.com CNAME .
@@ -14,6 +13,16 @@ asia-analyzer-appstore.vivoglobal.com CNAME .
 platform.instagram.com CNAME .
 alb.reddit.com CNAME .
 s.reddit.com CNAME .
+
+; Will broke some sites/app
+tencent.com CNAME .
+tencent.cn CNAME .
 tiktok.com CNAME .
 qq.com CNAME .
 mail.ru CNAME .
+
+; Express vpn fork
+get-express-vpn.com CNAME .
+get-express-vpn.org CNAME .
+get-express-cpn.net CNAME .
+get-express-vpn.xyz CNAME .
