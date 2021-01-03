@@ -20,6 +20,7 @@ tencent.cn CNAME .
 tiktok.com CNAME .
 qq.com CNAME .
 mail.ru CNAME .
+vivo.com.cn CNAME .
 
 ; Express vpn fork
 get-express-vpn.com CNAME .
