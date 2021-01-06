@@ -13,9 +13,12 @@ asia-analyzer-appstore.vivoglobal.com CNAME .
 platform.instagram.com CNAME .
 alb.reddit.com CNAME .
 s.reddit.com CNAME .
+graph.fbpigeon.com CNAME .
+
 
 ; Will broke some sites/app
 tencent.com CNAME .
+baidu.com CNAME .
 tencent.cn CNAME .
 tiktok.com CNAME .
 qq.com CNAME .
@@ -28,3 +31,39 @@ get-express-vpn.com CNAME .
 get-express-vpn.org CNAME .
 get-express-cpn.net CNAME .
 get-express-vpn.xyz CNAME .
+
+; qq related
+err-up.vivoglobal.com CNAME .
+ro-up.vivoglobal.com CNAME .
+dldir1.qq.com CNAME .
+0report.syzs.qq.com CNAME .
+qbwup.imtt.qq.com CNAME .
+masterconn.qq.com CNAME .
+masterconn2.qq.com CNAME .
+masterconn11.qq.com CNAME .
+master.etl.desktop.qq.com CNAME .
+btrace.qq.com CNAME .
+downloadtpt.gamedl.qq.com CNAME .
+c.gj.qq.com CNAME .
+ga.gamedl.qq.com CNAME .
+myapp.com CNAME .
+gamedl.qq.com CNAME .
+stat.gamedl.qq.com CNAME .
+p2pupdate.gamedl.qq.com CNAME .
+stun.qqlive.qq.com CNAME .
+ps2.gamedl.qq.com CNAME .
+config.gamedl.qq.com CNAME .
+p2pupgrade.gamedl.qq.com CNAME .
+syzs.qq.com CNAME .
+s.syzs.qq.com CNAME .
+guanjia.qq.com CNAME .
+sy.guanjia.qq.com CNAME .
+gameloop.fun CNAME .
+s.gameloop.fun CNAME .
+sy.gameloop.fun CNAME .
+
+; MediaTek
+pepodownload.mediatek.com CNAME .
+qepodownload.mediatek.com CNAME .
+pgepodownload.mediatek.com CNAME .
+qgepodownload.mediatek.com CNAME .
