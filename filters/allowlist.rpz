@@ -1,4 +1,6 @@
 *.gvt1.com CNAME rpz-passthru.
 *.play.googleapis.com CNAME rpz-passthru.
 exappupgrade.vivoglobal.com CNAME rpz-passthru.
-sysupgrade-api.vivoglobal.com CNAME rps-passthru.
+sysupgrade-api.vivoglobal.com CNAME rpz-passthru.
+keepass.info CNAME rpz-passthru.
+keepassdx.com CNAME rpz-passthru.
