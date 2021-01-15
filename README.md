@@ -22,3 +22,4 @@ Cluster                         Listen(TCP/443/853)
 
 # Mirror / Fork
 [notabug.org](https://notabug.org/lottanorta/doh-dot-haproxy)
+[codeberg.org](https://codeberg.org/DoulpaGllo/doh-dot-haproxy)
