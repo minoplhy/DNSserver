@@ -16,12 +16,12 @@ s.reddit.com CNAME .
 graph.fbpigeon.com CNAME .
 
 ; Will broke some sites/app
-tencent.com CNAME .
-baidu.com CNAME .
-tencent.cn CNAME .
-tiktok.com CNAME .
-qq.com CNAME .
-mail.ru CNAME .
+*.tencent.com CNAME .
+*.baidu.com CNAME .
+*.tencent.cn CNAME .
+*.tiktok.com CNAME .
+*.qq.com CNAME .
+*.mail.ru CNAME .
 *.vivo.com.cn CNAME .
 *.vivoglobal.com CNAME .
 
