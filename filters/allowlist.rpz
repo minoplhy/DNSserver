@@ -4,8 +4,3 @@ exappupgrade.vivoglobal.com CNAME rpz-passthru.
 sysupgrade-api.vivoglobal.com CNAME rpz-passthru.
 keepass.info CNAME rpz-passthru.
 keepassdx.com CNAME rpz-passthru.
-
-; Hosting Providers / Domain Registrar
-ddos-guard.net CNAME rpz-passthru.
-blueangelhost.com CNAME rpz-passthru.
-markmonitor.com CNAME rpz-passthru.

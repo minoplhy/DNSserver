@@ -6,4 +6,3 @@ https://block.energized.pro/extensions/social/formats/rpz.txt
 https://block.energized.pro/extensions/regional/formats/rpz.txt
 https://urlhaus.abuse.ch/downloads/rpz/
 https://block.energized.pro/extensions/xtreme/formats/rpz.txt
-https://oooo.b-cdn.net/blahdns/blahdns_rpz.txt

@@ -6,5 +6,3 @@ wget -O /etc/knot-resolver/list/denylist.rpz https://raw.githubusercontent.com/m
 wget -O /etc/knot-resolver/list/pgl-adserver.rpz https://pgl.yoyo.org/adservers/serverlist.php?hostformat=rpz&showintro=1&mimetype=plaintext
 wget -O /etc/knot-resolver/list/energized-social.rpz https://block.energized.pro/extensions/social/formats/rpz.txt
 wget -O /etc/knot-resolver/list/energized-regional.rpz https://block.energized.pro/extensions/regional/formats/rpz.txt
-wget -O /etc/knot-resolver/list/blahdns.rpz https://oooo.b-cdn.net/blahdns/blahdns_rpz.txt
-exit
