@@ -15,7 +15,6 @@ alb.reddit.com CNAME .
 s.reddit.com CNAME .
 graph.fbpigeon.com CNAME .
 
-
 ; Will broke some sites/app
 tencent.com CNAME .
 baidu.com CNAME .
@@ -23,14 +22,14 @@ tencent.cn CNAME .
 tiktok.com CNAME .
 qq.com CNAME .
 mail.ru CNAME .
-vivo.com.cn CNAME .
-vivoglobal.com CNAME .
+*.vivo.com.cn CNAME .
+*.vivoglobal.com CNAME .
 
 ; Express vpn folk
-get-express-vpn.com CNAME .
-get-express-vpn.org CNAME .
-get-express-vpn.net CNAME .
-get-express-vpn.xyz CNAME .
+*.get-express-vpn.com CNAME .
+*.get-express-vpn.org CNAME .
+*.get-express-vpn.net CNAME .
+*.get-express-vpn.xyz CNAME .
 
 ; qq related
 err-up.vivoglobal.com CNAME .
