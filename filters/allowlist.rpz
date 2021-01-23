@@ -7,5 +7,8 @@ keepassdx.com CNAME rpz-passthru.
 
 ; Hosting Providers / Domain Registrar
 *.ddos-guard.net CNAME rpz-passthru.
+ddos-guard.net CNAME rpz-paasthru.
 *.blueangelhost.com CNAME rpz-passthru.
+blueangelhost.com CNAME rpz-passthru.
 *.markmonitor.com CNAME rpz-passthru.
+markmonitor.com CNAME rpz-passthru.
