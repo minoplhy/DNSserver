@@ -27,9 +27,13 @@ graph.fbpigeon.com CNAME .
 
 ; Express vpn folk
 *.get-express-vpn.com CNAME .
+get-express-vpn.com CNAME .
 *.get-express-vpn.org CNAME .
+get-express-vpn.org CNAME .
 *.get-express-vpn.net CNAME .
+get-express-vpn.net CNAME .
 *.get-express-vpn.xyz CNAME .
+get-express-vpn.xyz CNAME .
 
 ; qq related
 err-up.vivoglobal.com CNAME .
