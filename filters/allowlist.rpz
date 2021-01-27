@@ -1,17 +1,18 @@
+$TTL 6h
+@ IN SOA localhost. root.localhost. (1 6h 1h 1w 2h)
+  IN NS  localhost.
+; start allowlist -------vv
 *.gvt1.com CNAME rpz-passthru.
 *.play.googleapis.com CNAME rpz-passthru.
 exappupgrade.vivoglobal.com CNAME rpz-passthru.
 sysupgrade-api.vivoglobal.com CNAME rpz-passthru.
-
 keepass.info CNAME rpz-passthru.
 *.keepass.info CNAME rpz-passthru.
 keepassdx.com CNAME rpz-passthru.
 *.keepassdx.com CNAME rpz-passthru.
-
-; Hosting Providers / Domain Registrar
-*.ddos-guard.net CNAME rpz-passthru.
 ddos-guard.net CNAME rpz-passthru.
-*.blueangelhost.com CNAME rpz-passthru.
+*.ddos-guard.net CNAME rpz-passthru.
 blueangelhost.com CNAME rpz-passthru.
-*.markmonitor.com CNAME rpz-passthru.
+*.blueangelhost.com CNAME rpz-passthru.
 markmonitor.com CNAME rpz-passthru.
+*.markmonitor.com CNAME rpz-passthru.
