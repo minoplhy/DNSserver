@@ -26,6 +26,6 @@ Cluster                         Listen(TCP/443/853)
 # Mirror / Fork
 *Mirror n Fork Repository might not up-to-date with main repository*
 
-[notabug.org](https://notabug.org/lottanorta/doh-dot-haproxy)
+[notabug.org](https://notabug.org/lottanorta/HaproxyDNS)
 
-[codeberg.org](https://codeberg.org/DoulpaGllo/doh-dot-haproxy)
+[codeberg.org](https://codeberg.org/DoulpaGllo/HaproxyDNS)
