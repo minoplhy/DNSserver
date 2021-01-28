@@ -1,4 +1,5 @@
-# DOT DOH with haproxy
+# HaproxyDNS
+Use Haproxy as Dns-over-HTTPS DNS-over-TLS Server
 
 **!!! denylist.rpz and allowlist.rpz are made for my _private_ use and will _cause_ problem with _some_ domain !!!**
 
