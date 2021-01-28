@@ -1,6 +1,9 @@
-# DOT DOH with haproxy
+# HaproxyDNS
+Use Haproxy as *Dns-over-HTTPS* | *DNS-over-TLS* | *DNSCrypt*(not Haproxy) Server
 
 **!!! denylist.rpz and allowlist.rpz are made for my _private_ use and will _cause_ problem with _some_ domain !!!**
+
+> **denylist.rpz and allowlist.rpz now moved to dedicated repository but still cause problem**
 
 ```
 Query
@@ -21,6 +24,8 @@ Cluster                         Listen(TCP/443/853)
 4. [Mozilla ssl-config](https://ssl-config.mozilla.org/) **Recommend** if you are looking for a sample TLS/SSL configuration for your Server Software
 
 # Mirror / Fork
+*Mirror n Fork Repository might not up-to-date with main repository*
+
 [notabug.org](https://notabug.org/lottanorta/HaproxyDNS)
 
 [codeberg.org](https://codeberg.org/DoulpaGllo/HaproxyDNS)
