@@ -24,7 +24,7 @@ Cluster                         Listen(TCP/443/853)
 4. [Mozilla ssl-config](https://ssl-config.mozilla.org/) **Recommend** if you are looking for a sample TLS/SSL configuration for your Server Software
 
 # Mirror / Fork
-*Mirror n Fork Repository might not up-to-date with this repository*
+*Mirror n Fork Repository might not up-to-date with main repository*
 
 [notabug.org](https://notabug.org/lottanorta/doh-dot-haproxy)
 
