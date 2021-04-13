@@ -9,6 +9,6 @@ wget -O /etc/knot-resolver/list/energized-regional.rpz https://block.energized.p
 wget -O /etc/knot-resolver/list/energized-xtreme.rpz https://block.energized.pro/extensions/xtreme/formats/rpz.txt
 wget -O /etc/knot-resolver/list/blahdns.rpz https://oooo.b-cdn.net/blahdns/blahdns_rpz.txt
 wget -O /etc/knot-resolver/list/urlhaus-abuse_ch.rpz https://urlhaus.abuse.ch/downloads/rpz
-wget -O /etc/knot-resolver/list/minop-cname-cloaking.rpz https://github.com/minoplhy/dnsBlocklist/raw/main/rpz/cname-cloaking.rpz
+wget -O /etc/knot-resolver/list/minop-cname-cloaking.rpz https://noblt.sos-ch-dk-2.exoscale-cdn.com/adguard/cname-original.rpz
 wget -O /etc/knot-resolver/list/ad-cname-tracker.rpz https://noblt.sos-ch-dk-2.exoscale-cdn.com/adguard/cname-tracker.rpz
 exit
