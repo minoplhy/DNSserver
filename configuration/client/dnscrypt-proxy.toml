@@ -1,5 +1,3 @@
-# This Client Configuration are made for dnscrypt-proxy and Thanks ookangzheng for sample configuration files
-# Based on https://github.com/ookangzheng/blahdns/blob/master/client-conf/dnscrypt/dnscrypt-proxy.toml
 server_names = ['ProviderName', 'ProviderNamev6-Ifexisted']
 listen_addresses = ['127.0.0.1:53', '[::1]:53']
 max_clients = 250
@@ -10,7 +8,7 @@ keepalive = 30
 # Load-balancing strategy: 'p2' (default), 'ph', 'fastest' or 'random'
 lb_strategy = 'fastest'
 fallback_resolver = '94.140.14.14:53'
-ignore_system_dns = false
+ignore_system_dns = true
 netprobe_timeout = 30
 cache = false
 cache_size = 512
@@ -18,6 +16,18 @@ cache_min_ttl = 90
 cache_max_ttl = 1800
 cache_neg_min_ttl = 2
 cache_neg_max_ttl = 6
+
+# Use servers reachable over IPv4
+ipv4_servers = true
+
+# Use servers reachable over IPv6 -- Do not enable if you don't have IPv6 connectivity
+ipv6_servers = true
+
+# Use servers implementing the DNSCrypt protocol
+dnscrypt_servers = true
+
+# Use servers implementing the DNS-over-HTTPS protocol
+doh_servers = false
 
 [static]
 ## Publickey: YOURPUBKEY
