@@ -13,5 +13,4 @@ wget -O /etc/knot-resolver/list/1host-wildcards-pro.rpz https://sos-ch-dk-2.exo.
 wget -O /etc/knot-resolver/list/urlhaus-abuse_ch.rpz https://urlhaus.abuse.ch/downloads/rpz
 wget -O /etc/knot-resolver/list/minop-cname-cloaking.rpz https://sos-ch-dk-2.exo.io/noblt/adguard/cname-original_rpz.txt
 wget -O /etc/knot-resolver/list/ad-cname-tracker.rpz https://sos-ch-dk-2.exo.io/noblt/adguard/cname-tracker_rpz.txt
-wget -O /etc/knot-resolver/list/rpz-oisd.rpz https://rpz.oisd.nl/
 exit
