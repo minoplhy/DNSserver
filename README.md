@@ -23,7 +23,7 @@ or NGINX
 Query
            Dns-over-TLS
           --------------------->  NGINX(Frontend)    ----------------------------->  
-Cluster                         Listen(TCP/443/853)                                 
+Cluster                         Listen(TCP/853)                                 
           --------------------->            (HTTP/443) -------> m13253/DOH   ------->        Knot-resolver
 	   Dns-over-HTTPS                                                                    Listen(global/dns)Listen(Local/dns)
 	   DNSCrypt v2             
