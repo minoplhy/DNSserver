@@ -1,0 +1,25 @@
+server {
+  listen       443 ssl http2;
+  listen       [::]:443 ssl http2;
+  server_name  SERVER_NAME;
+
+  server_tokens off;
+  ssl_protocols TLSv1.3;
+  # HTTP Security Headers
+  add_header X-Frame-Options DENY;
+  add_header X-Content-Type-Options nosniff;
+  add_header X-XSS-Protection "1; mode=block";
+  add_header Strict-Transport-Security "max-age=63072000";
+  ssl_certificate /go/to/ket/;
+  ssl_certificate_key /go/to/ket/;
+  gzip off;
+  add_header Last-Modified $date_gmt;
+  etag off;
+  
+  location /dns-query {
+    proxy_pass       http://localhost:8053/dns-query;
+    proxy_set_header Host      $host;
+    proxy_set_header X-Real-IP $remote_addr;
+  }
+
+}

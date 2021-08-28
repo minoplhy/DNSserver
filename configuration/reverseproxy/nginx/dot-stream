@@ -1,0 +1,15 @@
+    # DNS upstream pool
+upstream dns {
+        zone dns 64k;
+        server 127.0.0.1:5353;
+    }
+
+    # DoT server for decryption
+server {
+        listen 853 ssl;
+		listen [::]:853 ssl;
+        ssl_certificate /go/to/ket/;
+        ssl_certificate_key /go/to/ket/;
+        proxy_pass dns;
+    }
+
