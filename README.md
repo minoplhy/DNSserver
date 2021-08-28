@@ -11,7 +11,21 @@ Query
           --------------------->  Haproxy(Frontend)    ----------------------------->  
 Cluster                         Listen(TCP/443/853)                                 
           --------------------->            (HTTP/443) -------> m13253/DOH   ------->        Knot-resolver
-	   Dns-over-HTTPS                                                                    Listen(Local/http)Listen(Local/dns)
+	   Dns-over-HTTPS                                                                    Listen(global/dns)Listen(Local/dns)
+	   DNSCrypt v2             
+	   --------------------->  jedisct1/Encrypted DNS Server ------------------->
+                                   Listen(TCP/UDP/8443)
+```
+
+or NGINX
+
+```
+Query
+           Dns-over-TLS
+          --------------------->  NGINX(Frontend)    ----------------------------->  
+Cluster                         Listen(TCP/443/853)                                 
+          --------------------->            (HTTP/443) -------> m13253/DOH   ------->        Knot-resolver
+	   Dns-over-HTTPS                                                                    Listen(global/dns)Listen(Local/dns)
 	   DNSCrypt v2             
 	   --------------------->  jedisct1/Encrypted DNS Server ------------------->
                                    Listen(TCP/UDP/8443)
