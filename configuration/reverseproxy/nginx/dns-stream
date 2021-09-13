@@ -1,0 +1,14 @@
+# DNS (TCP) server
+server {
+    listen 53;
+    listen [::]:53;
+    proxy_pass dns;
+}
+
+# DNS (UDP) server
+server {
+    listen 53 udp;
+    listen [::]:53 udp;
+    proxy_responses 1;
+    proxy_pass dns;
+}
