@@ -7,7 +7,8 @@ upstream dns {
     # DoT server for decryption
 server {
         listen 853 ssl;
-		listen [::]:853 ssl;
+	listen [::]:853 ssl;
+	ssl_protocols TLSv1.3;
         ssl_certificate /go/to/ket/;
         ssl_certificate_key /go/to/ket/;
         proxy_pass dns;
