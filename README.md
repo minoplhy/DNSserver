@@ -45,4 +45,4 @@ Cluster                         Listen(TCP/853)
 
 [notabug.org](https://notabug.org/lottanorta/HaproxyDNS)
 
-[codeberg.org](https://codeberg.org/DoulpaGllo/HaproxyDNS)
+[git.disroot.org](https://git.disroot.org/minoplhy/DNSserver)
