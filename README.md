@@ -32,10 +32,13 @@ Cluster                         Listen(TCP/853)
 ```
 
 # Recommendation
-1. [knot-resolver](https://knot-resolver.cz) **Recommend** using upstream repository on debian
-2. download-filters.sh **Recommend** if you want to download all the default filters used in kresd.conf(knot-resolver configuration)
-3. [jedisct1/Encrypted-dns-server](https://github.com/jedisct1/encrypted-dns-server) **Recommend** if you are looking for an easy way to start a DNSCrypt server
-4. [Mozilla ssl-config](https://ssl-config.mozilla.org/) **Recommend** if you are looking for a sample TLS/SSL configuration for your Server Software
+1. [knot-resolver](https://knot-resolver.cz) **Recommended** using upstream repository on debian
+2. download-filters.sh **Recommended** if you want to download all the default filters used in kresd.conf(knot-resolver configuration)
+3. [jedisct1/Encrypted-dns-server](https://github.com/jedisct1/encrypted-dns-server) **Recommended** if you are looking for an easy way to start a DNSCrypt server
+4. [Mozilla ssl-config](https://ssl-config.mozilla.org/) **Recommended** if you are looking for a sample TLS/SSL configuration for your Server Software
+5. [AdGuardHome](https://github.com/adguardteam/adguardhome) or [Pi-hole](https://github.com/pi-hole/pi-hole) **Recommended** in case your blocklist are big {my big is around 10MB ++} and RAM is your limitation .
+6. use [AdGuardHome](https://github.com/adguardteam/adguardhome) or [Pi-hole](https://github.com/pi-hole/pi-hole) instead of Knot-Resolver **Recommended** if you already forwarded all requests to Third-Party(e.g. quad9)
+7. not open Port 53 to the world **Recommended** if your dns server is only for private use or internal use, cause you'll get chance of getting flood from unknown party
 
 # Mirror / Fork
 *Mirror n Fork Repository might not up-to-date with main repository*
